@@ -1,5 +1,5 @@
 <form action="/action_page.php">
-  <h2>POGI NEW USER Register Form 1234</h2>
+  <h2>Ako pahh NEW USER Register Form</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
     <input class="input-field" type="text" placeholder="Enter Username" name="usrnm">
