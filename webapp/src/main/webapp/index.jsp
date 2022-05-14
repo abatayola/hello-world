@@ -1,5 +1,5 @@
 <form action="/action_page.php">
-  <h2>k8s k8s k8s k8s na Ako pahh NEW USER Register Form</h2>
+  <h2>NEW USER Register Form</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
     <input class="input-field" type="text" placeholder="Enter Username" name="usrnm">
