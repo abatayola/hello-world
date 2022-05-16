@@ -1,37 +1,27 @@
-<form action="/action_page.php">
-  <h2>SAMPLE Register Form</h2>
-  <div class="input-container">
-    <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Enter Username" name="usrnm">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="Email" name="email">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-key icon"></i>
-    <input class="input-field" type="password" placeholder="Password" name="psw">
-  </div>
-
-  <button type="submit" class="btn">Register</button>
-</form>
-<form action="action_page.php">
+<form action="action_page.php" style="border:1px solid #ccc">
   <div class="container">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>Lorem ipsum..</p>
-  </div>
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-  <div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
     <label>
-      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
-  </div>
 
-  <div class="container">
-    <input type="submit" value="Subscribe">
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
   </div>
 </form>
